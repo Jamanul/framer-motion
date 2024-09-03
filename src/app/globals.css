@@ -2,10 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --foreground-rgb: 255, 255, 255; /* White or light color for text */
+  --background-start-rgb: 34, 34, 34; /* Darker shade for the start of the background */
+  --background-end-rgb: 0, 0, 0; /* Black for the end of the background */
 }
 
 @media (prefers-color-scheme: dark) {
