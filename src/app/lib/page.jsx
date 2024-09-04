@@ -46,6 +46,7 @@ const Reveal = ({ children ,width="fit-content" }) => {
         zIndex: 20
       }}
       ></motion.div>
+        
     </div>
   );
 };
