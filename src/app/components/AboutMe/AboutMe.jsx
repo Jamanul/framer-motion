@@ -6,6 +6,7 @@ import { TiSocialLinkedin } from "react-icons/ti";
 import CountUp from 'react-countup';
 import Image from "next/image";
 import Reveal from "@/app/lib/page";
+import Link from "next/link";
 const AboutMe = () => {
   return (
     <div>
@@ -16,6 +17,9 @@ const AboutMe = () => {
         I am Md Jamanul Karim
         </Reveal>
         </h2>
+        <button><Link href="/animate">
+              Animation
+              </Link></button>
         <h2 className="text-5xl md:text-6xl bg-clip-text font-bold text-primary bg-gradient-to-r from-primary to-slate-400 text-transparent inline-block ">
           Mern Stack Developer
         </h2>

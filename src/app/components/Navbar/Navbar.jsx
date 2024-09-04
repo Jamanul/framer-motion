@@ -69,7 +69,11 @@ const Navbar = () => {
         </div>
         <div className="flex justify-center items-center">
           <ul className="flex gap-8 ">
+            <li>
+            
+            </li>
             <li className="hover:text-primary hover:transform hover:duration-1000 hover:ease-in-out hover:transition">
+            
               <Link
                 activeClass="active"
                 to="skills"
